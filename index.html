@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Datos del alumno</title>
+  </head>
+  <body>
+    <p align="center"><h1>Datos del alumno</h1> <br></p>
+    <form class="" action="index.html" method="post">
+        <i>Nombre</i> <input type="text" name="Nombre" size="25" max="40" title="Nombre"> <br>
+        <i>Apellido</i> <input type="text" name="Apellido" size="40" max="60" title="Apellido"> <br>
+        <i>Edad</i> <input type="text" name="Edad" size="10" max="20" title="Edad"> <br>
+        <i>Contraseña</i> <input type="password" name="Mi_contraseña" size="10" max="20"title="Contraseña"> <br>
+      <h4>Indica tu sexo</h4>
+        <p>
+        <input type="Radio" name="sexo" value="Hombre"> Hombre <br>
+        <input type="Radio" name="sexo" value="Hombre"> Mujer <br>
+        <input type="Radio" name="sexo" value="Hombre"> Otro <br>
+        </p>
+      <h4>Indica tus estudios</h4>
+        <p>
+        <input type="Radio" name="Modulo" value="estudios"> ESO <br>
+        <input type="Radio" name="Modulo" value="estudios"> Bachillerato <br>
+        <input type="Radio" name="Modulo" value="estudios"> Modulo <br>
+        <input type="Radio" name="Modulo" value="estudios"> Ninguno <br>
+        </p>
+      <h4>Indica tus asignaturas favoritas</h4>
+        <form action="gestion_formulario.php" action="index.html" method="post">
+      <p>
+        <input type="checkbox" id="Seguridad informatica" value="Seguridad informatica"> Seguridad informatica <br>
+        <input type="checkbox" id="Aplicaciones Web" value="Aplicaciones Web"> Aplicaciones web<br>
+        <input type="checkbox" id="Empresa e Inicativa Emprendedora" value="Empresa e Inicativa Emprendedora"> Empresa e Inicativa Emprendedora <br>
+        <input type="checkbox" id="Sistemas Operativos en Red" value="Sistemas Operativos en Red"> Sistemas Operativos en Red <br>
+        <input type="checkbox" id="Horas de libre Configuracion" value="Horas de libre Configuracion"> Horas de libre Configuracion <br>
+        <input type="checkbox" id="Servicos en red " value="Servicos en red "> Servicos en red  <br>
+      </p>
+
+      <form action="" action="index.html" method="post">
+        <h4>Que vas a hacer despues de tus estudios</h4>
+          <select name="Lista_extra">
+            <option value=""></option>
+            <option value="Nada">Nada</option>
+            <option value="Grado medio">Grado medio</option>
+            <option value="Grado superior">Grado superior</option>
+            <option value="Universidad">Universidad</option>
+            <option value="Trabajar">Trabajar</option>
+            <option value="Master">Master</option>
+
+          </select> <br><br>
+
+      <input type="submit" name="mi_submit_button" value="Enviar"><br>
+      <input type="reset" name="mi_reset_button" value="Borrar"><br>
+      <input type="button" name="my_button" value="Cerrar"><br>
+
+
+    </form>
+
+  </body>
+</html>
